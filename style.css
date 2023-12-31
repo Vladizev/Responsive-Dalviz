@@ -1,0 +1,116 @@
+
+@media only screen and (max-width:600px){
+
+*{
+    margin:0;
+    padding:0;
+}
+.wholebody{
+    width:90%;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1585575141647-c2c436949374?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZSUyMHNwYWNlfGVufDB8fDB8fHww');
+    background-color: green;
+    background-size: clamp(50rem, 100%, 50rem);
+    color: white;
+}
+.h1{
+    min-width:4rem;
+    max-width:4rem;
+    font-size:0.4rem;
+    padding: 1px 0px 0px 0px;
+    border-style: solid 1px;
+    border-color:red;
+    margin-right:1rem;
+    margin-left:10px;
+    
+}
+.heading1{
+    display:flex; 
+    position:relative;
+    left:0.5rem; 
+    margin-top:5px;
+    
+}
+.headinglinks{
+    background-color: transparent;
+    text-align:center;
+    color:white;
+    min-width: 4rem;
+    max-width: 4rem;
+    font-size:0.5rem;
+    height: 10px;
+    padding: 0px 0px 0px 0px;
+    margin-top: 10px;
+    border-top: -5px;
+}
+.headingdevide{
+    margin-top:5px;
+    padding: 0px 0px 0px 0px;
+    max-width:24rem;
+    min-width:5rem;    
+}
+.homepageimage{
+    min-width:24rem;
+    max-width:25rem;
+    max-height:35rem;
+}
+.homepageimage2{
+    min-width:8rem;
+    max-width:24rem;
+    max-height:35rem;
+    
+}
+}
+
+@media only screen and (min-width:450px){
+
+    *{
+        margin:0;
+        padding:0;
+    }
+    .wholebody{
+        width:100%;
+    }
+    body{
+        background-image: url('https://images.unsplash.com/photo-1585575141647-c2c436949374?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZSUyMHNwYWNlfGVufDB8fDB8fHww');
+        background-color: green;
+        background-size: clamp(50rem, 100%, 50rem);
+        color: white;
+    }
+    .h1{
+        min-width:8rem;
+        max-width:8rem;
+        font-size:0.8rem;
+        padding: 1px 0px 0px 0px;
+        border-style: solid 1px;
+        border-color:red;
+        margin-right:1rem;
+    }
+    .heading1{
+        display:flex; 
+        position:relative;
+        left:0.5rem; 
+        margin-top:10px;
+        margin-left:30px;
+        margin-right:30px;
+    }
+    .headinglinks{
+        background-color: transparent;
+        text-align:center;
+        color:white;
+        min-width: 8rem;
+        max-width: 8rem;
+        font-size:0.8rem;
+        height: 10px;
+        padding: 0px 0px 0px 0px;
+        margin-top: 15px;
+        border-top: -5px;
+    }
+    .headingdevide{
+        margin-top:5px;
+        padding: 0px 0px 0px 0px;
+        max-width:20rem;
+        min-width:50rem;    
+    }
+}
